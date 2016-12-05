@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<package name="default" namespace="/" extends="struts-default">
+		<action name="select" class="com.action.actionTest">
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="input" class="com.action.actionInput">
+			<result name="success">/input.jsp</result>
+		</action>
+		<action name="delete" class="com.action.actionDelete">
+			<result name="success">/delete.jsp</result>
+		</action>
+	</package>
+</struts>    
